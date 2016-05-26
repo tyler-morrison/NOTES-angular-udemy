@@ -1,10 +1,8 @@
-The Problem(s) AngularJS is Trying to Solve
-======
+# The Problem(s) AngularJS is Trying to Solve
 
 We want to make websites feel more fluid and natural; however, we’re also trying to lower the amount of work it takes to create these sites. As web applications become more and more complex, things can get very hairy if you’re working with older technologies like jQuery — a lot of time is spent updating the DOM. AngularJS looks to solve this issue.
 
-Model, View, Whatever
-======
+# Model, View, Whatever
 
 With the new paradigm, we have data on one side and HTML on the other. We need to connect these two things to produce a successful application. The idea for achieving this has actually been around for a long time - Model, View, Controller.
 
@@ -13,8 +11,7 @@ AngularJS actually has a different mindset from this — **Model, View, Whatever
 * View = Whatever the user sees / interacts with (HTML for web sites)
 * Whatever = Something the *binds* the Model to the View so that the two can interact simultaneously (controllers, view models, whatever...)
 
-HTML Aside: Custom Attributes
-======
+# HTML Aside: Custom Attributes
 
 When writing HTML, the browser has built-in ways to render many different attributes out-of-the-box. For example...
 ```s
@@ -31,8 +28,7 @@ HTML5 actually takes this one step further and requires a ‘data-’ syntax bef
 
 AngularJS does not use *‘data-’*, instead they use *‘ng-’* to declare custom attributes that are related to its scripts. If you wanted to be really sticky about your HTML5 syntax, you could use *‘data-ng-’*; however, this is not a requirement.
 
-Modules, Apps, and controllers
-======
+# Modules, Apps, and controllers
 
 When you write AngularJS, you have one, and only one, variable that is attached to the Global Namepace — your main application **module**.
 
